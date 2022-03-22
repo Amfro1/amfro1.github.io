@@ -1,0 +1,48 @@
+body {
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	user-select: none;
+	background: url("../images/lowpoly.png") no-repeat;
+}
+
+.maintext {
+	font-family: Raleway;
+	color: aliceblue;
+	font-size: 2cm;
+	z-index: -9999;
+}
+
+.soc {
+	z-index: 999;
+}
+
+.fa {
+	color: white;
+	font-size: 30px;
+	width: 32px;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 16px;
+	padding: 10px 10px 10px 10px;
+}
+.fab {
+	color: white;
+	font-size: 30px;
+	width: 32px;
+	text-align: center;
+	text-decoration: none;
+	margin-left: 16px;
+	padding: 10px 10px 10px 10px;
+}
+
+.line{
+	border-bottom: 2px solid rgb(255, 255, 255); /* Параметры линии */
+	width: 9cm;
+	position: relative; /*Позируем*/
+	margin-top: 10px;
+}
